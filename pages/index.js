@@ -399,7 +399,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          name="Rooms and Grounds"
+          name="Rooms and Grounds text container"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -420,7 +420,7 @@ export default function Home() {
           <p>OUR ROOMS & GROUNDS</p>
         </div>
         <div
-          name="Rooms & Grounds container"
+          name="Rooms & Grounds grid container"
           style={{
             display: "flex",
             flexWrap: "wrap",
@@ -430,6 +430,7 @@ export default function Home() {
             width: "66vw",
             height: "78vh",
             backgroundColor: "translucent",
+            marginBottom: "12vh",
           }}
         >
           <div
@@ -681,6 +682,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div
+        name="Footer container"
+        style={{ width: "99.1vw", height: "20vh", backgroundColor: "#48021e" }}
+      ></div>
     </>
   );
 }
