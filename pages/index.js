@@ -423,16 +423,263 @@ export default function Home() {
           name="Rooms & Grounds container"
           style={{
             display: "flex",
+            flexWrap: "wrap",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignContent: "space-between",
             width: "66vw",
-            height: "50vh",
-            backgroundColor: "red",
+            height: "78vh",
+            backgroundColor: "translucent",
           }}
         >
-          <div name="Shelley's Theatre">
-            <img></img>
+          <div
+            name="Shelly's-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Shelley's-image-container "
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "translucent",
+              }}
+            >
+              <img
+                src="images/plasshelleys.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Shelley's-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
+          </div>
+          <div
+            name="Maddocks-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Maddocks-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plasmaddocks.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Maddocks-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
+          </div>
+          <div
+            name="Hildas-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Hildas-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plashildas.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Hildas-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
+          </div>
+          <div
+            name="Drawing-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Drawing-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plasdrawingroom.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Drawing-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
+          </div>
+          <div
+            name="Grounds-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Grounds-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plasdining.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Grounds-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
+          </div>
+          <div
+            name="Breakfast-Diner-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Breakfast-Diner-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plasgrounds.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Breakfast-Diner-text-container"
+              style={{
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+              }}
+            ></div>
           </div>
         </div>
-        <div></div>
       </div>
     </>
   );
