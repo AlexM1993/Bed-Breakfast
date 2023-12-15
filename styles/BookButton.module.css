@@ -1,0 +1,18 @@
+.bookButtonMenu {
+  width: auto; /*Allow the button to adjust its width based on content, was previously 4vw */
+  /* height: 14px;
+  padding: 7px 54px; */
+  height: 0.8rem;
+  padding: 0.44rem 3rem;
+  background: #48021e;
+  top: 3px;
+  color: #fff;
+  font-family: EB Garamond;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap; /*makes the text not wrap to the next line */
+}

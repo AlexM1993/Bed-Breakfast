@@ -1,0 +1,18 @@
+.book {
+  display: flex;
+  width: 170px;
+  height: 24px;
+  padding: 9px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #48021e;
+  position: absolute;
+  color: #fff;
+  font-family: EB Garamond;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.26px;
+}
