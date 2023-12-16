@@ -14,7 +14,7 @@ function Video() {
           display: "flex",
           position: "absolute",
           backgroundColor: "translucent",
-          marginTop: "9vh",
+          marginTop: "9.5vh",
         }}
       >
         <video

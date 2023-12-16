@@ -19,12 +19,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Video />
+
       <div
         name="main-container"
         style={{
           display: "flex",
           position: "relative",
-          marginTop: "0.5rem",
+          marginTop: ".50rem",
           margin: "0 auto",
           // justifyContent: "center",
           flexWrap: "wrap",
@@ -41,10 +42,11 @@ export default function Home() {
             display: "flex",
             margin: "0 auto",
             flex: 1,
+            position: "fixed",
             alignItems: "center",
             width: "66vw",
             height: "9vh",
-            backgroundColor: "translucent",
+            backgroundColor: "white",
           }}
         >
           <div
@@ -465,6 +467,9 @@ export default function Home() {
             <div
               name="Shelley's-text-container"
               style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: "21vw",
                 height: "8vh",
                 backgroundColor: "translucent",
@@ -472,8 +477,15 @@ export default function Home() {
                 borderLeft: "1px solid #EAEAEA",
                 borderRight: "1px solid #EAEAEA",
                 boxSizing: "border-box", // Include padding in the total width and height
+                fontFamily: "EB Garamond, sans-serif",
+                letterSpacing: "0.05rem",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                color: "#48021e",
               }}
-            ></div>
+            >
+              <p>SHELLEYS' THEATRE</p>
+            </div>
           </div>
           <div
             name="Maddocks-container"
@@ -506,6 +518,9 @@ export default function Home() {
             <div
               name="Maddocks-text-container"
               style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: "21vw",
                 height: "8vh",
                 backgroundColor: "translucent",
@@ -513,8 +528,15 @@ export default function Home() {
                 borderLeft: "1px solid #EAEAEA",
                 borderRight: "1px solid #EAEAEA",
                 boxSizing: "border-box", // Include padding in the total width and height
+                fontFamily: "EB Garamond, sans-serif",
+                letterSpacing: "0.05rem",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                color: "#48021e",
               }}
-            ></div>
+            >
+              <p>THE WILLIAM MADOCKS ROOM</p>
+            </div>
           </div>
           <div
             name="Hildas-container"
@@ -547,6 +569,9 @@ export default function Home() {
             <div
               name="Hildas-text-container"
               style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: "21vw",
                 height: "8vh",
                 backgroundColor: "translucent",
@@ -554,11 +579,18 @@ export default function Home() {
                 borderLeft: "1px solid #EAEAEA",
                 borderRight: "1px solid #EAEAEA",
                 boxSizing: "border-box", // Include padding in the total width and height
+                fontFamily: "EB Garamond, sans-serif",
+                letterSpacing: "0.05rem",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                color: "#48021e",
               }}
-            ></div>
+            >
+              <p>MISS HILDA'S</p>
+            </div>
           </div>
           <div
-            name="Drawing-container"
+            name="Drawing-room-container"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -568,7 +600,7 @@ export default function Home() {
             }}
           >
             <div
-              name="Drawing-image-container"
+              name="Drawing-room-image-container"
               style={{
                 display: "flex",
                 width: "21vw",
@@ -586,8 +618,11 @@ export default function Home() {
               ></img>
             </div>
             <div
-              name="Drawing-text-container"
+              name="Drawing-groom-text-container"
               style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: "21vw",
                 height: "8vh",
                 backgroundColor: "translucent",
@@ -595,8 +630,66 @@ export default function Home() {
                 borderLeft: "1px solid #EAEAEA",
                 borderRight: "1px solid #EAEAEA",
                 boxSizing: "border-box", // Include padding in the total width and height
+                fontFamily: "EB Garamond, sans-serif",
+                letterSpacing: "0.05rem",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                color: "#48021e",
               }}
-            ></div>
+            >
+              <p>DRAWING ROOM</p>
+            </div>
+          </div>
+          <div
+            name="Diner-container"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              width: "21vw",
+              height: "36vh",
+              backgroundColor: "translucent",
+            }}
+          >
+            <div
+              name="Diner-image-container"
+              style={{
+                display: "flex",
+                width: "21vw",
+                height: "28vh",
+                backgroundColor: "blue",
+              }}
+            >
+              <img
+                src="images/plasdining.jpg"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              ></img>
+            </div>
+            <div
+              name="Diner-text-container"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "21vw",
+                height: "8vh",
+                backgroundColor: "translucent",
+                borderBottom: "1px solid #EAEAEA",
+                borderLeft: "1px solid #EAEAEA",
+                borderRight: "1px solid #EAEAEA",
+                boxSizing: "border-box", // Include padding in the total width and height
+                fontFamily: "EB Garamond, sans-serif",
+                letterSpacing: "0.05rem",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                color: "#48021e",
+              }}
+            >
+              <p>BREAKFAST DINER</p>
+            </div>
           </div>
           <div
             name="Grounds-container"
@@ -618,7 +711,7 @@ export default function Home() {
               }}
             >
               <img
-                src="images/plasdining.jpg"
+                src="images/plasgrounds.jpg"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -629,6 +722,9 @@ export default function Home() {
             <div
               name="Grounds-text-container"
               style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 width: "21vw",
                 height: "8vh",
                 backgroundColor: "translucent",
@@ -636,56 +732,98 @@ export default function Home() {
                 borderLeft: "1px solid #EAEAEA",
                 borderRight: "1px solid #EAEAEA",
                 boxSizing: "border-box", // Include padding in the total width and height
-              }}
-            ></div>
-          </div>
-          <div
-            name="Breakfast-Diner-container"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "21vw",
-              height: "36vh",
-              backgroundColor: "translucent",
-            }}
-          >
-            <div
-              name="Breakfast-Diner-image-container"
-              style={{
-                display: "flex",
-                width: "21vw",
-                height: "28vh",
-                backgroundColor: "blue",
+                fontFamily: "EB Garamond, sans-serif",
+                fontSize: "1.1rem",
+                fontWeight: "500",
+                letterSpacing: "0.05rem",
+                color: "#48021e",
               }}
             >
-              <img
-                src="images/plasgrounds.jpg"
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "cover",
-                }}
-              ></img>
+              <p>GROUNDS</p>
             </div>
-            <div
-              name="Breakfast-Diner-text-container"
-              style={{
-                width: "21vw",
-                height: "8vh",
-                backgroundColor: "translucent",
-                borderBottom: "1px solid #EAEAEA",
-                borderLeft: "1px solid #EAEAEA",
-                borderRight: "1px solid #EAEAEA",
-                boxSizing: "border-box", // Include padding in the total width and height
-              }}
-            ></div>
           </div>
         </div>
       </div>
       <div
-        name="Footer container"
-        style={{ width: "99.1vw", height: "20vh", backgroundColor: "#48021e" }}
-      ></div>
+        name="Footer-container"
+        style={{
+          width: "99.1vw",
+          height: "20vh",
+          backgroundColor: "#48021e",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          name="Footer-content-container"
+          style={{
+            width: "66vw",
+            height: "100%",
+            backgroundColor: "translucent",
+            display: "flex",
+            justifyContent: "flex-start",
+          }}
+        >
+          <div
+            name="Text-footer-div"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignContent: "center",
+              backgroundColor: "translucent",
+              width: "32vw",
+              height: "20vh",
+              color: "white",
+              fontFamily: "EB Garamond",
+              fontSize: "0.75rem",
+              fontStyle: "normal",
+              fontWeight: "500",
+            }}
+          >
+            <p>HILLTOP MANOR, TREMADOG, PORTHMADOG LL49 9RG</p>
+            <p>TELEPHONE: +44 (0) 1766 514 591</p>
+            <p>© 2023 HILLTOP MANOR | ALL RIGHTS RESERVED | COOKIE POLICY</p>
+          </div>
+          {/* <div
+            name="travellers-choice-div"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              backgroundColor: "translucent",
+            }}
+          >
+            <img
+              src="images/travellers-choice-21.png"
+              style={{
+                width: "auto",
+                height: "60%",
+              }}
+            ></img>
+          </div> */}
+          <div
+            name="socials-div"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "flex-end",
+              alignItems: "center",
+              backgroundColor: "translucent",
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <img
+              src="images/Socials.png"
+              style={{
+                width: "9vw",
+                height: "3vh",
+              }}
+            ></img>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
