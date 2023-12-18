@@ -15,4 +15,5 @@
   line-height: normal;
   text-align: center;
   white-space: nowrap; /*makes the text not wrap to the next line */
+  cursor: pointer;
 }

@@ -19,7 +19,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Video />
-
+      <div
+        name="header-container-full-width"
+        style={{
+          display: "flex",
+          margin: "0 auto",
+          flex: 1,
+          position: "fixed",
+          alignItems: "center",
+          backgroundColor: "white",
+          width: "100vw",
+          height: "9.5vh",
+        }}
+      ></div>
       <div
         name="main-container"
         style={{
@@ -37,15 +49,28 @@ export default function Home() {
       >
         {/* <Columns /> */}
         <div
-          name="header-container"
+          name="header-container-placeholder-in-main"
           style={{
             display: "flex",
             margin: "0 auto",
             flex: 1,
+            alignItems: "center",
+            backgroundColor: "translucent",
+            width: "100vw",
+            height: "9.5vh",
+          }}
+        ></div>
+
+        <div
+          name="header-container"
+          style={{
+            display: "flex",
+            margin: "0 auto",
             position: "fixed",
+            flex: 1,
             alignItems: "center",
             width: "66vw",
-            height: "9vh",
+            height: "9.5vh",
             backgroundColor: "white",
           }}
         >
@@ -64,7 +89,7 @@ export default function Home() {
               alt="A descriptive text about the image"
               width="30vw"
               height="50vh"
-              style={{}}
+              style={{ cursor: "pointer" }}
             ></img>
           </div>
           <div
@@ -79,7 +104,7 @@ export default function Home() {
               alt="A descriptive text about the image"
               width="75vw"
               height="84vh"
-              style={{}}
+              style={{ cursor: "pointer" }}
             />
           </div>
           <div
@@ -121,7 +146,7 @@ export default function Home() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              width: "22vw",
+              width: "21vw",
               height: "60vh",
               backgroundColor: "translucent",
               padding: "2rem", // Add padding to all sides
@@ -161,9 +186,10 @@ export default function Home() {
             style={{
               display: "flex",
               justifyContent: "center",
-              width: "44vw",
+              width: "45vw",
               height: "60vh",
               backgroundColor: "translucent",
+              cursor: "pointer",
             }}
           >
             <img
@@ -245,6 +271,7 @@ export default function Home() {
                 width: "15.8vw",
                 height: "50vh",
                 backgroundColor: "translucent",
+                cursor: "pointer",
               }}
             >
               <img
@@ -316,6 +343,7 @@ export default function Home() {
                 width: "15.8vw",
                 height: "50vh",
                 backgroundColor: "translucent",
+                cursor: "pointer",
               }}
             >
               <img
@@ -342,9 +370,10 @@ export default function Home() {
             style={{
               display: "flex",
               justifyContent: "center",
-              width: "44vw",
+              width: "45vw",
               height: "60vh",
               backgroundColor: "translucent",
+              cursor: "pointer",
             }}
           >
             <img
@@ -363,7 +392,7 @@ export default function Home() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              width: "22vw",
+              width: "21vw",
               height: "60vh",
               backgroundColor: "translucent",
               padding: "2rem", // Add padding to all sides
@@ -415,7 +444,7 @@ export default function Home() {
             fontSize: "1.5rem",
             textAlign: "center",
             fontFamily: "EB Garamond, sans-serif",
-            fontWeight: "400",
+            fontWeight: "500",
             letterSpacing: "0.2rem",
           }}
         >
@@ -453,6 +482,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "translucent",
+                cursor: "pointer",
               }}
             >
               <img
@@ -504,6 +534,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "blue",
+                cursor: "pointer",
               }}
             >
               <img
@@ -555,6 +586,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "blue",
+                cursor: "pointer",
               }}
             >
               <img
@@ -606,6 +638,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "blue",
+                cursor: "pointer",
               }}
             >
               <img
@@ -657,6 +690,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "blue",
+                cursor: "pointer",
               }}
             >
               <img
@@ -708,6 +742,7 @@ export default function Home() {
                 width: "21vw",
                 height: "28vh",
                 backgroundColor: "blue",
+                cursor: "pointer",
               }}
             >
               <img
@@ -812,6 +847,7 @@ export default function Home() {
               backgroundColor: "translucent",
               width: "100%",
               height: "100%",
+              cursor: "pointer",
             }}
           >
             <img
