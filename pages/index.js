@@ -2,10 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import BookButton from "@/components/BookButton.jsx";
-import AwardsButton from "@/components/AwardsButton.jsx";
 import Columns from "@/components/Columns.jsx";
 import Video from "@/components/Video.jsx";
+import Header from "@/components/Header.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,66 +60,7 @@ export default function Home() {
           }}
         ></div>
 
-        <div
-          name="header-container"
-          style={{
-            display: "flex",
-            margin: "0 auto",
-            position: "fixed",
-            flex: 1,
-            alignItems: "center",
-            width: "66vw",
-            height: "9.5vh",
-            backgroundColor: "white",
-          }}
-        >
-          <div
-            name="menu-div"
-            style={{
-              display: "flex",
-              flex: "1",
-              backgroundColor: "translucent",
-              maxWidth: "34.4vw",
-            }}
-          >
-            <img
-              name="menu-image"
-              src="/Frame 5.jpg"
-              alt="A descriptive text about the image"
-              width="30vw"
-              height="50vh"
-              style={{ cursor: "pointer" }}
-            ></img>
-          </div>
-          <div
-            name="logo-div"
-            style={{
-              display: "flex",
-            }}
-          >
-            <img
-              name="main-logo"
-              src="images/plaslogo.jpg"
-              alt="A descriptive text about the image"
-              width="75vw"
-              height="84vh"
-              style={{ cursor: "pointer" }}
-            />
-          </div>
-          <div
-            name="header-buttons-container"
-            style={{
-              display: "flex",
-              flex: "1",
-              justifyContent: "flex-end",
-              backgroundColor: "translucent",
-              maxWidth: "34.4vw",
-            }}
-          >
-            <BookButton />
-            <AwardsButton />
-          </div>
-        </div>
+        <Header />
         <div
           name="video-place-holder"
           style={{
@@ -132,7 +72,7 @@ export default function Home() {
         ></div>
         {/* <Video /> */}
         <div
-          name="card-container"
+          name="Welcome-card-container"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -140,7 +80,7 @@ export default function Home() {
           }}
         >
           <div
-            name="card-left-text"
+            name="Welcome-card-left-text"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -182,7 +122,7 @@ export default function Home() {
             </div>
           </div>
           <div
-            name="card-right-image"
+            name="Welcome-card-right-image"
             style={{
               display: "flex",
               justifyContent: "center",
@@ -817,7 +757,7 @@ export default function Home() {
             }}
           >
             <p>HILLTOP MANOR, TREMADOG, PORTHMADOG LL49 9RG</p>
-            <p>TELEPHONE: +44 (0) 1766 514 591</p>
+            <p>TELEPHONE: +44 (0) 1766 514 682</p>
             <p>© 2023 HILLTOP MANOR | ALL RIGHTS RESERVED | COOKIE POLICY</p>
           </div>
           {/* <div

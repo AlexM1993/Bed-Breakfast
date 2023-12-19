@@ -3,7 +3,7 @@
   /* height: 14px;
   padding: 7px 54px; */
   height: 0.8rem;
-  padding: 0.44rem 3rem;
+  padding: 0.4rem 3rem;
   background: #48021e;
   top: 3px;
   color: #fff;
@@ -14,6 +14,13 @@
   letter-spacing: 0.1rem;
   line-height: normal;
   text-align: center;
-  white-space: nowrap; /*makes the text not wrap to the next line */
+  white-space: nowrap;
   cursor: pointer;
+  border: 1px solid transparent; /* Start with a transparent border */
+}
+
+.bookButtonMenu:hover {
+  background: white;
+  color: #48021e;
+  border: 1px solid #48021e;
 }
