@@ -12,19 +12,19 @@ function Header() {
         alignItems: "center",
         backgroundColor: "white",
         width: "99.1vw",
-        height: "9.5vh",
+        minHeight: "9.5vh",
         zIndex: "2",
       }}
     >
       <div
-        name="header-container"
+        name="header-container-content"
         style={{
           display: "flex",
           margin: "0 auto",
           flex: 1,
           alignItems: "center",
           width: "66vw",
-          height: "9.5vh",
+          minHeight: "9.5vh",
           backgroundColor: "white",
         }}
       >
