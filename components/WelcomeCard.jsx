@@ -35,6 +35,7 @@ function WelcomeCard() {
             display: "flex",
             fontSize: "1.1rem",
             flexDirection: "column",
+            alignItems: "center",
             justifyContent: "center",
             textAlign: "center",
             fontFamily: "EB Garamond, sans-serif",
@@ -48,6 +49,25 @@ function WelcomeCard() {
             bursting with 'la dolce vita' - The first Georgian built Italian
             style villa in North Wales.
           </p>
+          <div
+            style={{
+              display: "flex",
+              height: "fit-content",
+              width: "fit-content",
+              fontSize: ".8rem",
+              flexDirection: "column",
+              justifyContent: "center",
+              textAlign: "center",
+              fontFamily: "EB Garamond, sans-serif",
+              lineHeight: "0",
+              letterSpacing: "0.1rem",
+              fontWeight: "700",
+              cursor: "pointer",
+              borderBottom: "1px solid #48021e",
+            }}
+          >
+            <p>READ OUR WELCOME</p>
+          </div>
         </div>
       </div>
       <div

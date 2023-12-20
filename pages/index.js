@@ -50,7 +50,6 @@ export default function Home() {
           backgroundColor: "translucent",
         }}
       >
-        {/* <Columns /> */}
         <div
           name="header-container-placeholder-in-main"
           style={{
@@ -63,7 +62,6 @@ export default function Home() {
             height: "9.5vh",
           }}
         ></div>
-
         <Header />
         <div
           name="video-place-holder"
@@ -74,7 +72,6 @@ export default function Home() {
             backgroundColor: "translucent",
           }}
         ></div>
-        {/* <Video /> */}
         <WelcomeCard />
         <DiningSightsCard />
         <HistoryCard />

@@ -59,6 +59,25 @@ function DiningSightsCard() {
               Mesmerizing breakfast views and an award winning local restaurant.
             </p>
           </div>
+          <div
+            style={{
+              display: "flex",
+              height: "fit-content",
+              width: "fit-content",
+              fontSize: ".8rem",
+              flexDirection: "column",
+              justifyContent: "center",
+              textAlign: "center",
+              fontFamily: "EB Garamond, sans-serif",
+              lineHeight: "0",
+              letterSpacing: "0.1rem",
+              fontWeight: "700",
+              cursor: "pointer",
+              borderBottom: "1px solid #48021e",
+            }}
+          >
+            <p>HILLTOP DINING</p>
+          </div>
         </div>
         <div
           name="card-right-image"
@@ -130,6 +149,25 @@ function DiningSightsCard() {
               Ideally placed for all the attractions that North Wales has to
               offer.
             </p>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              height: "fit-content",
+              width: "fit-content",
+              fontSize: ".8rem",
+              flexDirection: "column",
+              justifyContent: "center",
+              textAlign: "center",
+              fontFamily: "EB Garamond, sans-serif",
+              lineHeight: "0",
+              letterSpacing: "0.1rem",
+              fontWeight: "700",
+              cursor: "pointer",
+              borderBottom: "1px solid #48021e",
+            }}
+          >
+            <p>HILLTOP ATTRACTIONS</p>
           </div>
         </div>
         <div

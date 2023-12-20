@@ -67,8 +67,27 @@ function HistoryCard() {
           <p>
             Built in the early 1800s, Hilltop Manor has a deep historical
             connection to North Wales. You too can create your history here at
-            The Manor.
+            Hilltop Manor.
           </p>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            height: "fit-content",
+            width: "fit-content",
+            fontSize: ".8rem",
+            flexDirection: "column",
+            justifyContent: "center",
+            textAlign: "center",
+            fontFamily: "EB Garamond, sans-serif",
+            lineHeight: "0",
+            letterSpacing: "0.1rem",
+            fontWeight: "700",
+            cursor: "pointer",
+            borderBottom: "1px solid #48021e",
+          }}
+        >
+          <p>HILLTOP HISTORY</p>
         </div>
       </div>
     </div>

@@ -44,6 +44,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -54,7 +55,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "translucent",
-              cursor: "pointer",
             }}
           >
             <img
@@ -97,6 +97,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -106,7 +107,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "blue",
-              cursor: "pointer",
             }}
           >
             <img
@@ -149,6 +149,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -158,7 +159,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "blue",
-              cursor: "pointer",
             }}
           >
             <img
@@ -201,6 +201,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -210,7 +211,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "blue",
-              cursor: "pointer",
             }}
           >
             <img
@@ -253,6 +253,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -262,7 +263,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "blue",
-              cursor: "pointer",
             }}
           >
             <img
@@ -305,6 +305,7 @@ function RoomsAndGrounds() {
             width: "21vw",
             height: "36vh",
             backgroundColor: "translucent",
+            cursor: "pointer",
           }}
         >
           <div
@@ -314,7 +315,6 @@ function RoomsAndGrounds() {
               width: "21vw",
               height: "28vh",
               backgroundColor: "blue",
-              cursor: "pointer",
             }}
           >
             <img
