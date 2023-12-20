@@ -22,20 +22,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <Video />
-      <div
-        name="header-container-full-width"
-        style={{
-          display: "flex",
-          margin: "0 auto",
-          flex: 1,
-          position: "fixed",
-          alignItems: "center",
-          backgroundColor: "white",
-          width: "100vw",
-          height: "9.5vh",
-        }}
-      ></div>
       <div
         name="main-container"
         style={{
@@ -62,7 +50,7 @@ export default function Home() {
             height: "9.5vh",
           }}
         ></div>
-        <Header />
+        {/* <Header /> */}
         <div
           name="video-place-holder"
           style={{
