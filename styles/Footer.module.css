@@ -1,0 +1,41 @@
+.footerContainer {
+  width: 99.1vw;
+  height: 20vh;
+  background-color: #48021e;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContentContainer {
+  width: 66vw;
+  height: 100%;
+  background-color: translucent;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textFooterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: translucent;
+  width: 32vw;
+  height: 20vh;
+  color: white;
+  font-family: EB Garamond;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.socialsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: translucent;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
