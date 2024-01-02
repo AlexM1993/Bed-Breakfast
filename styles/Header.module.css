@@ -1,0 +1,61 @@
+.headerContainerFullWidth {
+  margin: 0 auto;
+  flex: 1;
+  position: fixed;
+  align-items: center;
+  background-color: white;
+  width: 99.1vw;
+  min-height: 9.5vh;
+  z-index: 2;
+}
+
+.headerContainerContent {
+  display: flex;
+  margin: 0 auto;
+  flex: 1;
+  align-items: center;
+  width: 66vw;
+  min-height: 9.5vh;
+  background-color: white;
+}
+
+.menuDiv {
+  display: flex;
+  flex: 1;
+  background-color: translucent;
+  max-width: 34.4vw;
+}
+
+.menuImage {
+  cursor: pointer;
+  width: 35px;
+  height: 40px;
+}
+
+.mainLogo {
+  cursor: pointer;
+  width: 75px;
+  height: 85px;
+}
+
+.headerButtonsContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  background-color: translucent;
+  max-width: 34.4vw;
+}
+
+/* @media (max-width: 1300px) {
+  .mainLogo {
+    cursor: pointer;
+    width: 60px;
+    height: 70px;
+  }
+
+  .menuImage {
+    cursor: pointer;
+    width: 30px;
+    height: 35px;
+  }
+} */

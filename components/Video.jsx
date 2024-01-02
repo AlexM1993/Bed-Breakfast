@@ -7,7 +7,7 @@ function Video() {
         }
       `}</style>
       <div
-        name="video"
+        name="video-container"
         style={{
           width: "99.1vw",
           height: "91vh",
@@ -29,6 +29,7 @@ function Video() {
           Your browser does not support the video tag.
         </video>
         <div
+          name="video-title-container"
           style={{
             position: "absolute",
             top: "50%",
@@ -45,6 +46,7 @@ function Video() {
           <p>HILLTOP MANOR</p>
         </div>
         <div
+          name="video-text-container"
           style={{
             position: "absolute",
             top: "50%",

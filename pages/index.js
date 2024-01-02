@@ -33,6 +33,7 @@ export default function Home() {
           margin: "0 auto",
           flexWrap: "wrap",
           flex: 1,
+
           width: "66vw",
           minHeight: "100vh",
           backgroundColor: "translucent",
@@ -46,7 +47,7 @@ export default function Home() {
             flex: 1,
             alignItems: "center",
             backgroundColor: "translucent",
-            width: "100vw",
+            width: "99.1vw",
             height: "9.5vh",
           }}
         ></div>

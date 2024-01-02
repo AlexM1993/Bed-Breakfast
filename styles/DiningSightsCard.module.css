@@ -1,0 +1,133 @@
+.cardDivDiningSights {
+  display: flex;
+  justify-content: space-between;
+  background-color: translucent;
+  width: 66vw;
+  height: 50vh;
+  margin-top: 3vw;
+}
+
+.cardDiningContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cardDiningLeftTextTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15.8vw;
+  height: 50vh;
+  background-color: translucent;
+  color: #48021e;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-size: 2rem;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.cardDiningLeftTextContent {
+  display: flex;
+  font-size: 1.1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+
+.cardDiningLeftTextButton {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.8rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  line-height: 0;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 1px solid #48021e;
+}
+
+.cardDiningRightImageContainer {
+  display: flex;
+  justify-content: center;
+  width: 15.8vw;
+  height: 50vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.cardSightsContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: translucent;
+}
+
+.cardSightsLeftTextTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15.8vw;
+  height: 50vh;
+  background-color: translucent;
+  color: #48021e;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-size: 2rem;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.cardSightsLeftTextContent {
+  display: flex;
+  font-size: 1.1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+
+.cardSightsLeftTextButton {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.8rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  line-height: 0;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 1px solid #48021e;
+}
+
+.cardSightsRightImageContainer {
+  display: flex;
+  justify-content: center;
+  width: 15.8vw;
+  height: 50vh;
+  background-color: translucent;
+  cursor: pointer;
+}

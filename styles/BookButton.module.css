@@ -24,3 +24,9 @@
   color: #48021e;
   border: 1px solid #48021e;
 }
+
+@media (max-width: 1300px) {
+  .bookButtonMenu {
+    display: none;
+  }
+}
