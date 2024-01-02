@@ -1,61 +1,67 @@
+import styles from "@/styles/RoomsAndGrounds.module.css";
+
 function RoomsAndGrounds() {
   return (
     <>
       <div
         name="Rooms and Grounds text container"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "66vw",
-          height: "12vh",
-          backgroundColor: "translucent",
-          padding: "2rem", // Add padding to all sides
-          boxSizing: "border-box", // Include padding in the total width and height
-          color: "#48021e",
-          fontSize: "1.5rem",
-          textAlign: "center",
-          fontFamily: "EB Garamond, sans-serif",
-          fontWeight: "500",
-          letterSpacing: "0.2rem",
-        }}
+        className={styles.roomsAndGroundsTextContainer}
+        // style={{
+        //   display: "flex",
+        //   justifyContent: "center",
+        //   alignItems: "center",
+        //   width: "66vw",
+        //   height: "12vh",
+        //   backgroundColor: "translucent",
+        //   padding: "2rem", // Add padding to all sides
+        //   boxSizing: "border-box", // Include padding in the total width and height
+        //   color: "#48021e",
+        //   fontSize: "1.5rem",
+        //   textAlign: "center",
+        //   fontFamily: "EB Garamond, sans-serif",
+        //   fontWeight: "500",
+        //   letterSpacing: "0.2rem",
+        // }}
       >
         <p>OUR ROOMS & GROUNDS</p>
       </div>
       <div
-        name="Rooms & Grounds grid container"
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          alignContent: "space-between",
-          width: "66vw",
-          height: "78vh",
-          backgroundColor: "translucent",
-          marginBottom: "12vh",
-        }}
+        name="Rooms and Grounds grid container"
+        className={styles.roomsAndGroundsGridContainer}
+        // style={{
+        //   display: "flex",
+        //   flexWrap: "wrap",
+        //   flexDirection: "row",
+        //   justifyContent: "space-between",
+        //   alignContent: "space-between",
+        //   width: "66vw",
+        //   height: "78vh",
+        //   backgroundColor: "translucent",
+        //   marginBottom: "12vh",
+        // }}
       >
         <div
-          name="Shelly's-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          name="Shelley's-container"
+          className={styles.shelleysContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
-            name="Shelley's-image-container "
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "translucent",
-            }}
+            name="Shelley's-image-container"
+            className={styles.shelleysImageContainer}
+            // style={{
+            //   display: "flex",
+            //   flexDirection: "column",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "translucent",
+            // }}
           >
             <img
               src="images/plasshelleys.jpg"
@@ -68,46 +74,49 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Shelley's-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              letterSpacing: "0.05rem",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              color: "#48021e",
-            }}
+            className={styles.shelleysTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box",
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   letterSpacing: "0.05rem",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   color: "#48021e",
+            // }}
           >
             <p>SHELLEYS' THEATRE</p>
           </div>
         </div>
         <div
           name="Maddocks-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          className={styles.maddocksContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
             name="Maddocks-image-container"
-            style={{
-              display: "flex",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "blue",
-            }}
+            className={styles.maddocksImageContainer}
+            // style={{
+            //   display: "flex",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "blue",
+            // }}
           >
             <img
               src="images/plasmaddocks.jpg"
@@ -120,46 +129,49 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Maddocks-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              letterSpacing: "0.05rem",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              color: "#48021e",
-            }}
+            className={styles.maddocksTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box",
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   letterSpacing: "0.05rem",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   color: "#48021e",
+            // }}
           >
             <p>THE WILLIAM MADOCKS ROOM</p>
           </div>
         </div>
         <div
           name="Hildas-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          className={styles.hildasContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
             name="Hildas-image-container"
-            style={{
-              display: "flex",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "blue",
-            }}
+            className={styles.hildasImageContainer}
+            // style={{
+            //   display: "flex",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "blue",
+            // }}
           >
             <img
               src="images/plashildas.jpg"
@@ -172,46 +184,49 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Hildas-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              letterSpacing: "0.05rem",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              color: "#48021e",
-            }}
+            className={styles.hildasTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box", // Include padding in the total width and height
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   letterSpacing: "0.05rem",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   color: "#48021e",
+            // }}
           >
             <p>MISS HILDA'S</p>
           </div>
         </div>
         <div
           name="Drawing-room-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          className={styles.drawingRoomContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
             name="Drawing-room-image-container"
-            style={{
-              display: "flex",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "blue",
-            }}
+            className={styles.drawingRoomImageContainer}
+            // style={{
+            //   display: "flex",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "blue",
+            // }}
           >
             <img
               src="images/plasdrawingroom.jpg"
@@ -224,46 +239,49 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Drawing-groom-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              letterSpacing: "0.05rem",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              color: "#48021e",
-            }}
+            className={styles.drawingRoomTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box",
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   letterSpacing: "0.05rem",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   color: "#48021e",
+            // }}
           >
             <p>DRAWING ROOM</p>
           </div>
         </div>
         <div
           name="Diner-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          className={styles.dinerContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
             name="Diner-image-container"
-            style={{
-              display: "flex",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "blue",
-            }}
+            className={styles.dinerImageContainer}
+            // style={{
+            //   display: "flex",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "blue",
+            // }}
           >
             <img
               src="images/plasdining.jpg"
@@ -276,46 +294,49 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Diner-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              letterSpacing: "0.05rem",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              color: "#48021e",
-            }}
+            className={styles.dinerTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box",
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   letterSpacing: "0.05rem",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   color: "#48021e",
+            // }}
           >
             <p>BREAKFAST DINER</p>
           </div>
         </div>
         <div
           name="Grounds-container"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            width: "21vw",
-            height: "36vh",
-            backgroundColor: "translucent",
-            cursor: "pointer",
-          }}
+          className={styles.groundsContainer}
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   width: "21vw",
+          //   height: "36vh",
+          //   backgroundColor: "translucent",
+          //   cursor: "pointer",
+          // }}
         >
           <div
             name="Grounds-image-container"
-            style={{
-              display: "flex",
-              width: "21vw",
-              height: "28vh",
-              backgroundColor: "blue",
-            }}
+            className={styles.groundsImageContainer}
+            // style={{
+            //   display: "flex",
+            //   width: "21vw",
+            //   height: "28vh",
+            //   backgroundColor: "blue",
+            // }}
           >
             <img
               src="images/plasgrounds.jpg"
@@ -328,23 +349,24 @@ function RoomsAndGrounds() {
           </div>
           <div
             name="Grounds-text-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "21vw",
-              height: "8vh",
-              backgroundColor: "translucent",
-              borderBottom: "1px solid #EAEAEA",
-              borderLeft: "1px solid #EAEAEA",
-              borderRight: "1px solid #EAEAEA",
-              boxSizing: "border-box", // Include padding in the total width and height
-              fontFamily: "EB Garamond, sans-serif",
-              fontSize: "1.1rem",
-              fontWeight: "500",
-              letterSpacing: "0.05rem",
-              color: "#48021e",
-            }}
+            className={styles.groundsTextContainer}
+            // style={{
+            //   display: "flex",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   width: "21vw",
+            //   height: "8vh",
+            //   backgroundColor: "translucent",
+            //   borderBottom: "1px solid #EAEAEA",
+            //   borderLeft: "1px solid #EAEAEA",
+            //   borderRight: "1px solid #EAEAEA",
+            //   boxSizing: "border-box",
+            //   fontFamily: "EB Garamond, sans-serif",
+            //   fontSize: "1.1rem",
+            //   fontWeight: "500",
+            //   letterSpacing: "0.05rem",
+            //   color: "#48021e",
+            // }}
           >
             <p>GROUNDS</p>
           </div>

@@ -1,0 +1,59 @@
+.historyCardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+.historyCardLeftImage {
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+  height: 60vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.historyCardRightTextTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 60vh;
+  background-color: rgb(234, 234, 234);
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #48021e;
+  font-size: 2rem;
+  text-align: center;
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.historyCardRightTextContent {
+  display: flex;
+  font-size: 1.1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+
+.historyCardRightTextButton {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.8rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "EB Garamond", sans-serif;
+  line-height: 0;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 1px solid #48021e;
+}

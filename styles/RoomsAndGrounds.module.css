@@ -1,0 +1,233 @@
+.roomsAndGroundsTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66vw;
+  height: 12vh;
+  background-color: translucent;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #48021e;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: EB Garamond, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.roomsAndGroundsGridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 66vw;
+  height: 78vh;
+  background-color: translucent;
+  margin-bottom: 12vh;
+}
+
+.shelleysContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.shelleysImageContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 28vh;
+  background-color: translucent;
+}
+
+.shelleysTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #48021e;
+}
+
+.maddocksContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.maddocksImageContainer {
+  display: flex;
+  width: 21vw;
+  height: 28vh;
+  background-color: blue;
+}
+
+.maddocksTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #48021e;
+}
+
+.hildasContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.hildasImageContainer {
+  display: flex;
+  width: 21vw;
+  height: 28vh;
+  background-color: blue;
+}
+
+.hildasTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #48021e;
+}
+
+.drawingRoomContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.drawingRoomImageContainer {
+  display: flex;
+  width: 21vw;
+  height: 28vh;
+  background-color: blue;
+}
+
+.drawingRoomTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #48021e;
+}
+
+.dinerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.dinerImageContainer {
+  display: flex;
+  width: 21vw;
+  height: 28vh;
+  background-color: blue;
+}
+
+.dinerTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #48021e;
+}
+
+.groundsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 21vw;
+  height: 36vh;
+  background-color: translucent;
+  cursor: pointer;
+}
+
+.groundsImageContainer {
+  display: flex;
+  width: 21vw;
+  height: 28vh;
+  background-color: blue;
+}
+
+.groundsTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vw;
+  height: 8vh;
+  background-color: translucent;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  color: #48021e;
+}
