@@ -1,47 +1,16 @@
+import styles from "@/styles/WelcomeCard.module.css";
+
 function WelcomeCard() {
   return (
-    <div
-      name="Welcome-card-container"
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        marginTop: "5vw",
-      }}
-    >
+    <div name="Welcome-card-container" className={styles.welcomeCardContainer}>
       <div
-        name="Welcome-card-left-text"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "21vw",
-          height: "60vh",
-          backgroundColor: "translucent",
-          padding: "2rem", // Add padding to all sides
-          boxSizing: "border-box", // Include padding in the total width and height
-          color: "#48021e",
-          fontSize: "2rem",
-          textAlign: "center",
-          fontFamily: "EB Garamond, sans-serif",
-          fontWeight: "400",
-          letterSpacing: "0.2rem",
-          backgroundColor: "rgb(234, 234, 234)",
-        }}
+        name="Welcome-card-left-text-title"
+        className={styles.welcomeCardLeftTextTitle}
       >
         <p style={{ marginBottom: "0.5rem" }}>WELCOME TO THE MANOR</p>
         <div
-          style={{
-            display: "flex",
-            fontSize: "1.1rem",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            textAlign: "center",
-            fontFamily: "EB Garamond, sans-serif",
-            letterSpacing: "0.05rem",
-            fontWeight: "400",
-          }}
+          name="Welcome-card-left-text-content"
+          className={styles.welcomeCardLeftTextContent}
         >
           <p>
             Multi-Award-Winning Five Star Historic Country House & Estate.
@@ -50,36 +19,16 @@ function WelcomeCard() {
             style villa in North Wales.
           </p>
           <div
-            style={{
-              display: "flex",
-              height: "fit-content",
-              width: "fit-content",
-              fontSize: ".8rem",
-              flexDirection: "column",
-              justifyContent: "center",
-              textAlign: "center",
-              fontFamily: "EB Garamond, sans-serif",
-              lineHeight: "0",
-              letterSpacing: "0.1rem",
-              fontWeight: "700",
-              cursor: "pointer",
-              borderBottom: "1px solid #48021e",
-            }}
+            name="welcome-card-left-text-button"
+            className={styles.welcomeCardLeftTextButton}
           >
             <p>READ OUR WELCOME</p>
           </div>
         </div>
       </div>
       <div
-        name="Welcome-card-right-image"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          width: "45vw",
-          height: "60vh",
-          backgroundColor: "translucent",
-          cursor: "pointer",
-        }}
+        name="Welcome-card-right-image-container"
+        className={styles.welcomeCardRightImageContainer}
       >
         <img
           src="images/plasoutside.jpg"

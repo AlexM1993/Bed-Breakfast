@@ -1,3 +1,5 @@
+import styles from "@/styles/Video.module.css";
+
 function Video() {
   return (
     <>
@@ -6,17 +8,7 @@ function Video() {
           margin: 0;
         }
       `}</style>
-      <div
-        name="video-container"
-        style={{
-          width: "99.1vw",
-          height: "91vh",
-          display: "flex",
-          position: "absolute",
-          backgroundColor: "translucent",
-          marginTop: "9.5vh",
-        }}
-      >
+      <div name="video-container" className={styles.videoContainer}>
         <video
           width="100%"
           height="100%"
@@ -30,35 +22,11 @@ function Video() {
         </video>
         <div
           name="video-title-container"
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, 100%)",
-            color: "#fff",
-            fontSize: "2rem",
-            fontWeight: "400",
-            textAlign: "center",
-            fontFamily: "EB Garamond",
-            letterSpacing: "0.2rem",
-          }}
+          className={styles.videoTitleContainer}
         >
           <p>HILLTOP MANOR</p>
         </div>
-        <div
-          name="video-text-container"
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, 100%)",
-            color: "#fff",
-            fontWeight: "400",
-            fontSize: "1.5rem",
-            textAlign: "center",
-            fontFamily: "EB Garamond",
-          }}
-        >
+        <div name="video-text-container" className={styles.videoTextContainer}>
           <p>Award-Winning Historic Country House</p>
           <p>3 NIGHTS FOR 2 - OCT 2023 - MARCH 24</p>
           <p>BOOK DIRECT To Guarantee Our Lowest Prices Anywhere</p>
