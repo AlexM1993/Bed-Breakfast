@@ -231,3 +231,30 @@
   letter-spacing: 0.05rem;
   color: #48021e;
 }
+
+@media screen and (max-width: 1200px) {
+  .shelleysTextContainer {
+    font-size: 1rem;
+  }
+
+  .maddocksTextContainer {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .hildasTextContainer {
+    font-size: 1rem;
+  }
+
+  .drawingRoomTextContainer {
+    font-size: 1rem;
+  }
+
+  .dinerTextContainer {
+    font-size: 1rem;
+  }
+
+  .groundsTextContainer {
+    font-size: 1rem;
+  }
+}

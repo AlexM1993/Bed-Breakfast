@@ -54,7 +54,7 @@
   text-align: center;
   font-family: EB Garamond, sans-serif;
   line-height: 0;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   font-weight: 700;
   cursor: pointer;
   border-bottom: 1px solid #48021e;
@@ -117,7 +117,7 @@
   text-align: center;
   font-family: EB Garamond, sans-serif;
   line-height: 0;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   font-weight: 700;
   cursor: pointer;
   border-bottom: 1px solid #48021e;
@@ -130,4 +130,95 @@
   height: 50vh;
   background-color: translucent;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .cardDiningLeftTextTitle {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .cardDiningLeftTextContent {
+    font-size: 1rem;
+  }
+
+  .cardDiningLeftTextButton {
+    font-size: 0.65rem;
+    letter-spacing: 0rem;
+  }
+
+  .cardSightsLeftTextTitle {
+    font-size: 1.1rem;
+  }
+
+  .cardSightsLeftTextContent {
+    font-size: 1rem;
+  }
+
+  .cardSightsLeftTextButton {
+    font-size: 0.65rem;
+    letter-spacing: 0rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cardDiningLeftTextTitle {
+    font-size: 0.9rem;
+  }
+
+  .cardDiningLeftTextContent {
+    font-size: 0.8rem;
+  }
+
+  .cardDiningLeftTextButton {
+    font-size: 0.65rem;
+    letter-spacing: 0rem;
+  }
+
+  .cardSightsLeftTextTitle {
+    font-size: 0.9rem;
+  }
+
+  .cardSightsLeftTextContent {
+    font-size: 0.8rem;
+  }
+
+  .cardSightsLeftTextButton {
+    font-size: 0.65rem;
+    letter-spacing: 0rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardDiningContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .cardDiningLeftTextTitle {
+    width: 31.6vw;
+    border-right: 1px solid #eaeaea;
+  }
+
+  .cardDiningRightImageContainer {
+    width: 31.6vw;
+    height: 21vh;
+  }
+
+  .cardSightsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .cardSightsLeftTextTitle {
+    width: 31.6vw;
+    border-right: 1px solid #eaeaea;
+  }
+
+  .cardSightsRightImageContainer {
+    width: 31.6vw;
+    height: 22vh;
+  }
 }

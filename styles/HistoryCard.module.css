@@ -57,3 +57,23 @@
   cursor: pointer;
   border-bottom: 1px solid #48021e;
 }
+
+@media screen and (max-width: 1200px) {
+  .historyCardContainer {
+    flex-direction: column;
+  }
+
+  .historyCardLeftImage {
+    width: 66vw;
+  }
+
+  .historyCardRightTextTitle {
+    width: 66vw;
+    height: 40vh;
+    font-size: 1.2rem;
+  }
+
+  .historyCardRightTextContent {
+    font-size: 1rem;
+  }
+}

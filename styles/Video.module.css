@@ -31,3 +31,14 @@
   text-align: center;
   font-family: "EB Garamond";
 }
+
+@media screen and (max-width: 1200px) {
+  .videoTextContainer {
+    display: none;
+  }
+
+  .videoTitleContainer {
+    position: absolute;
+    top: 50%;
+  }
+}

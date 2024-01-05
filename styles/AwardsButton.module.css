@@ -23,7 +23,7 @@
   border: 1px solid #48021e;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .awardsButtonMenu {
     display: none;
   }

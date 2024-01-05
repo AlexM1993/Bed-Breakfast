@@ -60,7 +60,7 @@ function DiningSightsCard() {
             name="card-sights-left-text-button"
             className={styles.cardSightsLeftTextButton}
           >
-            <p>HILLTOP ATTRACTIONS</p>
+            <p>HILLTOP SIGHTS</p>
           </div>
         </div>
         <div

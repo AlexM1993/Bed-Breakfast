@@ -58,3 +58,24 @@
   background-color: translucent;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  .welcomeCardContainer {
+    flex-direction: column; /* Change to column direction */
+  }
+
+  .welcomeCardLeftTextTitle {
+    width: 66vw;
+    height: 40vh;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+  }
+
+  .welcomeCardLeftTextContent {
+    font-size: 1rem;
+  }
+
+  .welcomeCardRightImageContainer {
+    width: 66vw;
+  }
+}
