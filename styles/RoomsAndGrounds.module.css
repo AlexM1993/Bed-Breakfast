@@ -233,6 +233,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .roomsAndGroundsTextContainer {
+    font-size: 1.2rem;
+  }
+
   .shelleysTextContainer {
     font-size: 1rem;
   }
@@ -256,5 +260,123 @@
 
   .groundsTextContainer {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .roomsAndGroundsTextContainer {
+    font-size: 1rem;
+  }
+
+  .roomsAndGroundsGridContainer {
+    height: 112vh;
+  }
+
+  .shelleysContainer {
+    width: 32vw;
+  }
+
+  .shelleysImageContainer {
+    width: 32vw;
+  }
+
+  .shelleysTextContainer {
+    width: 32vw;
+  }
+
+  .maddocksContainer {
+    text-align: center;
+
+    width: 32vw;
+  }
+
+  .maddocksImageContainer {
+    text-align: center;
+
+    width: 32vw;
+  }
+
+  .maddocksTextContainer {
+    text-align: center;
+
+    width: 32vw;
+  }
+
+  .hildasContainer {
+    width: 32vw;
+  }
+
+  .hildasImageContainer {
+    width: 32vw;
+  }
+
+  .hildasTextContainer {
+    width: 32vw;
+  }
+
+  .drawingRoomContainer {
+    width: 32vw;
+  }
+
+  .drawingRoomImageContainer {
+    width: 32vw;
+  }
+
+  .drawingRoomTextContainer {
+    width: 32vw;
+  }
+
+  .dinerContainer {
+    width: 32vw;
+  }
+
+  .dinerImageContainer {
+    width: 32vw;
+  }
+
+  .dinerTextContainer {
+    width: 32vw;
+  }
+
+  .groundsContainer {
+    width: 32vw;
+  }
+
+  .groundsImageContainer {
+    width: 32vw;
+  }
+
+  .groundsTextContainer {
+    width: 32vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .roomsAndGroundsTextContainer {
+    font-size: 0.9rem;
+  }
+
+  .shelleysTextContainer {
+    font-size: 0.8rem;
+  }
+
+  .maddocksTextContainer {
+    font-size: 0.8rem;
+  }
+
+  .hildasTextContainer {
+    font-size: 0.8rem;
+  }
+
+  .drawingRoomTextContainer {
+    font-size: 0.8rem;
+  }
+
+  .dinerTextContainer {
+    font-size: 0.8rem;
+  }
+
+  .groundsTextContainer {
+    font-size: 0.8rem;
   }
 }

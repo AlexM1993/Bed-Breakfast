@@ -33,12 +33,23 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .videoTextContainer {
-    display: none;
-  }
-
   .videoTitleContainer {
     position: absolute;
     top: 50%;
+    font-size: 1.6rem;
+  }
+
+  .videoTextContainer {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .videoTitleContainer {
+    display: none;
+  }
+
+  .videoTextContainer {
+    display: none;
   }
 }

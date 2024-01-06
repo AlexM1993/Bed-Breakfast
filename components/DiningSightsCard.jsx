@@ -46,7 +46,7 @@ function DiningSightsCard() {
           name="card-sights-left-text-title"
           className={styles.cardSightsLeftTextTitle}
         >
-          <p style={{ marginBottom: "0.5rem" }}>SIGHTS & ATTRACTIONS</p>
+          <p style={{ marginBottom: "0.5rem" }}>SIGHTS & LOCALITIES</p>
           <div
             name="card-sights-left-text-content"
             className={styles.cardSightsLeftTextContent}

@@ -43,6 +43,7 @@
 @media screen and (max-width: 1200px) {
   .textFooterDiv {
     width: 66vw;
+    font-size: 0.65rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,5 +53,11 @@
   .socialsDiv {
     display: none;
     /* justify-content: flex-start; */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .textFooterDiv {
+    font-size: 0.5rem;
   }
 }
