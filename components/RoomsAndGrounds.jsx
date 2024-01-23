@@ -31,7 +31,7 @@ function RoomsAndGrounds() {
             name="Shelley's-text-container"
             className={styles.shelleysTextContainer}
           >
-            <p>SHELLEYS' THEATRE</p>
+            <p>SHELLEYS&apos; THEATRE</p>
           </div>
         </div>
         <div name="Maddocks-container" className={styles.maddocksContainer}>
@@ -73,7 +73,7 @@ function RoomsAndGrounds() {
             name="Hildas-text-container"
             className={styles.hildasTextContainer}
           >
-            <p>MISS HILDA'S</p>
+            <p>MISS HILDA&apos;S</p>
           </div>
         </div>
         <div
