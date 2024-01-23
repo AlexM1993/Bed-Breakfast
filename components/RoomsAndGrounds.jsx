@@ -19,7 +19,7 @@ function RoomsAndGrounds() {
             className={styles.shelleysImageContainer}
           >
             <img
-              src="images/plasshelleys.jpg"
+              src="images/Plasshelleys.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -31,7 +31,7 @@ function RoomsAndGrounds() {
             name="Shelley's-text-container"
             className={styles.shelleysTextContainer}
           >
-            <p>SHELLEYS&apos; THEATRE</p>
+            <p>SHELLEY&apos;S THEATRE</p>
           </div>
         </div>
         <div name="Maddocks-container" className={styles.maddocksContainer}>
@@ -40,7 +40,7 @@ function RoomsAndGrounds() {
             className={styles.maddocksImageContainer}
           >
             <img
-              src="images/plasmaddocks.jpg"
+              src="images/Plasmaddocks.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -61,7 +61,7 @@ function RoomsAndGrounds() {
             className={styles.hildasImageContainer}
           >
             <img
-              src="images/plashildas.jpg"
+              src="images/Plashildas.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -85,7 +85,7 @@ function RoomsAndGrounds() {
             className={styles.drawingRoomImageContainer}
           >
             <img
-              src="images/plasdrawingroom.jpg"
+              src="images/Plasdrawingroom.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -106,7 +106,7 @@ function RoomsAndGrounds() {
             className={styles.dinerImageContainer}
           >
             <img
-              src="images/plasdining.jpg"
+              src="images/Plasdining.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -127,7 +127,7 @@ function RoomsAndGrounds() {
             className={styles.groundsImageContainer}
           >
             <img
-              src="images/plasgrounds.jpg"
+              src="images/Plasgrounds.jpg"
               style={{
                 width: "100%",
                 height: "100%",

@@ -31,7 +31,7 @@ function WelcomeCard() {
         className={styles.welcomeCardRightImageContainer}
       >
         <img
-          src="images/plasoutside.jpg"
+          src="images/Plasoutside.jpg"
           style={{
             width: "100%",
             height: "100%",

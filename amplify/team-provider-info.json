@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bedbreakfastamp-dev-224142-authRole",
+      "UnauthRoleArn": "arn:aws:iam::022588023978:role/amplify-bedbreakfastamp-dev-224142-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::022588023978:role/amplify-bedbreakfastamp-dev-224142-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-bedbreakfastamp-dev-224142-deployment",
+      "UnauthRoleName": "amplify-bedbreakfastamp-dev-224142-unauthRole",
+      "StackName": "amplify-bedbreakfastamp-dev-224142",
+      "StackId": "arn:aws:cloudformation:eu-west-1:022588023978:stack/amplify-bedbreakfastamp-dev-224142/957d6380-ba40-11ee-b0f3-02ac26bd32ab",
+      "AmplifyAppId": "d824phkrk3jd5"
+    }
+  }
+}
