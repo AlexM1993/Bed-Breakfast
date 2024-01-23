@@ -15,7 +15,7 @@ function WelcomeCard() {
           <p>
             Multi-Award-Winning Five Star Historic Country House & Estate.
             Crammed full of historical charm, sprinkled in literary mystique and
-            bursting with 'la dolce vita' - The first Georgian built Italian
+            bursting with "la dolce vita" - The first Georgian built Italian
             style villa in North Wales.
           </p>
           <div
