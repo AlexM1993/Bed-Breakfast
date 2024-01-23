@@ -8,10 +8,15 @@ function DiningSightsCard() {
     >
       <div name="card-dining-container" className={styles.cardDiningContainer}>
         <div
-          name="card-dining-left-text-title"
-          className={styles.cardDiningLeftTextTitle}
+          name="card-dining-text-container"
+          className={styles.cardDiningTextContainer}
         >
-          <p style={{ marginBottom: "0.5rem" }}>DINING OPTIONS</p>
+          <div
+            name="card-dining-left-text-title"
+            className={styles.cardDiningLeftTextTitle}
+          >
+            <p style={{ marginBottom: "0.5rem" }}>DINING OPTIONS</p>
+          </div>
           <div
             name="card-dining-left-text-content"
             className={styles.cardDiningLeftTextContent}
@@ -43,10 +48,15 @@ function DiningSightsCard() {
       </div>
       <div name="card-sights-container" className={styles.cardSightsContainer}>
         <div
-          name="card-sights-left-text-title"
-          className={styles.cardSightsLeftTextTitle}
+          name="card-sights-text-container"
+          className={styles.cardSightsTextContainer}
         >
-          <p style={{ marginBottom: "0.5rem" }}>SIGHTS & LOCALITIES</p>
+          <div
+            name="card-sights-left-text-title"
+            className={styles.cardSightsLeftTextTitle}
+          >
+            <p style={{ marginBottom: "0.5rem" }}>SIGHTS & LOCALITIES</p>
+          </div>
           <div
             name="card-sights-left-text-content"
             className={styles.cardSightsLeftTextContent}

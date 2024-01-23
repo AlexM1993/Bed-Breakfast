@@ -1,8 +1,7 @@
 .cardDivDiningSights {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  background-color: translucent;
+  background-color: green;
   width: 66vw;
   height: 50vh;
   margin-top: 3vw;
@@ -11,33 +10,7 @@
 .cardDiningContainer {
   display: flex;
   justify-content: center;
-  height: 100%;
-  border-top: 1px solid #eaeaea;
-  border-right: 1px solid #eaeaea;
-  border-left: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-}
-
-.cardDiningTextContainer {
   background-color: translucent;
-  height: 100%;
-  width: 15.8vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #48021e;
-}
-
-.cardSightsTextContainer {
-  background-color: translucent;
-  height: 100%;
-  width: 15.8vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #48021e;
 }
 
 .cardDiningLeftTextTitle {
@@ -46,9 +19,13 @@
   justify-content: center;
   align-items: center;
   width: 15.8vw;
-  min-height: auto;
+  height: 50vh;
+  background-color: translucent;
   color: #48021e;
-  /* padding: 2rem; */
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 2rem;
   box-sizing: border-box;
   font-size: 2rem;
   text-align: center;
@@ -66,8 +43,6 @@
   font-family: EB Garamond, sans-serif;
   letter-spacing: 0.05rem;
   font-weight: 400;
-  background-color: translucent;
-  min-height: auto;
 }
 
 .cardDiningLeftTextButton {
@@ -84,8 +59,6 @@
   font-weight: 700;
   cursor: pointer;
   border-bottom: 1px solid #48021e;
-  background-color: translucent;
-  min-height: auto;
 }
 
 .cardDiningRightImageContainer {
@@ -101,10 +74,6 @@
   display: flex;
   justify-content: space-between;
   background-color: translucent;
-  border-top: 1px solid #eaeaea;
-  border-right: 1px solid #eaeaea;
-  border-left: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .cardSightsLeftTextTitle {
@@ -113,10 +82,13 @@
   justify-content: center;
   align-items: center;
   width: 15.8vw;
-  height: auto;
+  height: 50vh;
   background-color: translucent;
   color: #48021e;
-  /* padding: 2rem; */
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 2rem;
   box-sizing: border-box;
   font-size: 2rem;
   text-align: center;
@@ -134,7 +106,6 @@
   font-family: EB Garamond, sans-serif;
   letter-spacing: 0.05rem;
   font-weight: 400;
-  height: auto;
 }
 
 .cardSightsLeftTextButton {
@@ -151,7 +122,6 @@
   font-weight: 700;
   cursor: pointer;
   border-bottom: 1px solid #48021e;
-  height: auto;
 }
 
 .cardSightsRightImageContainer {
@@ -175,11 +145,12 @@
 
 @media screen and (max-width: 1200px) {
   .cardDiningLeftTextTitle {
+    padding: 1rem;
     font-size: 1.1rem;
   }
 
   .cardDiningLeftTextContent {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .cardDiningLeftTextButton {
@@ -192,7 +163,7 @@
   }
 
   .cardSightsLeftTextContent {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .cardSightsLeftTextButton {
@@ -234,59 +205,60 @@
 @media screen and (max-width: 800px) {
   .cardDiningContainer {
     display: flex;
-    width: 31.6vw;
     justify-content: space-between;
     flex-direction: column;
-    border-bottom: 0px;
-  }
-
-  .cardDiningTextContainer {
-    width: 31.6vw;
+    max-height: 50vh;
   }
 
   .cardDiningLeftTextTitle {
     width: 31.6vw;
+    border-right: 1px solid #eaeaea;
+    max-height: 50vh;
     padding: 0rem;
-  }
-
-  .cardDiningLeftTextContent {
-    height: 50%;
+    font-size: 1.2rem;
   }
 
   .cardDiningRightImageContainer {
     width: 31.6vw;
-    height: 45%;
+    max-height: 21vh;
   }
 
   .cardSightsContainer {
     display: flex;
-    width: 31.6vw;
     justify-content: space-between;
     flex-direction: column;
-    border-bottom: 0px;
-  }
-
-  .cardSightsTextContainer {
-    width: 31.6vw;
   }
 
   .cardSightsLeftTextTitle {
-    width: 100%;
+    width: 31.6vw;
+    border-right: 1px solid #eaeaea;
+    max-height: 30vh;
     padding: 0rem;
-  }
-
-  .cardSightsLeftTextContent {
-    height: 50%;
+    font-size: 1.2rem;
   }
 
   .cardSightsRightImageContainer {
     width: 31.6vw;
-    height: 45%;
+    max-height: 21vh;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* .cardDivDiningSights {
-    flex-wrap: wrap;
-  } */
+  .cardDiningContainer {
+    min-width: 66vw;
+    /* flex-direction: column; */
+  }
+
+  .cardDivDiningSights {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+  }
+
+  .cardDiningLeftTextTitle {
+    width: 66vw;
+  }
+
+  .cardDiningRightImageContainer {
+    width: 66vw;
+  }
 }

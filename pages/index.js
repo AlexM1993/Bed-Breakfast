@@ -33,7 +33,6 @@ export default function Home() {
           margin: "0 auto",
           flexWrap: "wrap",
           flex: 1,
-
           width: "66vw",
           minHeight: "100vh",
           backgroundColor: "translucent",

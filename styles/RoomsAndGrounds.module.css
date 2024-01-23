@@ -232,9 +232,15 @@
   color: #48021e;
 }
 
+@media screen and (max-width: 1400px) {
+  .roomsAndGroundsTextContainer {
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .roomsAndGroundsTextContainer {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .shelleysTextContainer {
@@ -358,25 +364,31 @@
 
   .shelleysTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .maddocksTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .hildasTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .drawingRoomTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .dinerTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .groundsTextContainer {
     font-size: 0.8rem;
+    text-align: center;
   }
 }
