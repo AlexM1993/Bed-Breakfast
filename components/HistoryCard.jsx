@@ -8,7 +8,7 @@ function HistoryCard() {
         className={styles.historyCardLeftImage}
       >
         <img
-          src="images/Plashistory.jpg"
+          src="static/Plashistory.jpg"
           style={{
             width: "100%",
             height: "100%",

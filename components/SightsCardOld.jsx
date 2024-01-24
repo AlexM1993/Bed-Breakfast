@@ -24,7 +24,7 @@
     className={styles.cardSightsRightImageContainer}
   >
     <img
-      src="images/plasattractions.jpg"
+      src="static/plasattractions.jpg"
       style={{
         width: "100%",
         height: "100%",

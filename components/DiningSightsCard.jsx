@@ -37,7 +37,7 @@ function DiningSightsCard() {
           className={styles.cardDiningRightImageContainer}
         >
           <img
-            src="images/Plasdiningoptions.jpg"
+            src="static/Plasdiningoptions.jpg"
             style={{
               width: "100%",
               height: "100%",
@@ -78,7 +78,7 @@ function DiningSightsCard() {
           className={styles.cardSightsRightImageContainer}
         >
           <img
-            src="images/Plasattractions.jpg"
+            src="static/Plasattractions.jpg"
             style={{
               width: "100%",
               height: "100%",

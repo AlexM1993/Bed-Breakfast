@@ -22,7 +22,7 @@ function Footer() {
             }}
           >
             <img
-              src="images/travellers-choice-21.png"
+              src="static/travellers-choice-21.png"
               style={{
                 width: "auto",
                 height: "60%",
@@ -31,7 +31,7 @@ function Footer() {
           </div> */}
         <div name="socials-div" className={styles.socialsDiv}>
           <img
-            src="images/Socials.png"
+            src="static/Socials.png"
             style={{
               width: "9vw",
               height: "3vh",

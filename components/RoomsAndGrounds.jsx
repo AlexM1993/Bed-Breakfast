@@ -19,7 +19,7 @@ function RoomsAndGrounds() {
             className={styles.shelleysImageContainer}
           >
             <img
-              src="images\Plasshelleys.jpg"
+              src="static/Plasshelleys.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -40,7 +40,7 @@ function RoomsAndGrounds() {
             className={styles.maddocksImageContainer}
           >
             <img
-              src="images/Plasmaddocks.jpg"
+              src="static/Plasmaddocks.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -61,7 +61,7 @@ function RoomsAndGrounds() {
             className={styles.hildasImageContainer}
           >
             <img
-              src="images/Plashildas.jpg"
+              src="static/Plashildas.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -85,7 +85,7 @@ function RoomsAndGrounds() {
             className={styles.drawingRoomImageContainer}
           >
             <img
-              src="images/Plasdrawingroom.jpg"
+              src="static/Plasdrawingroom.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -106,7 +106,7 @@ function RoomsAndGrounds() {
             className={styles.dinerImageContainer}
           >
             <img
-              src="images/Plasdining.jpg"
+              src="static/Plasdining.jpg"
               style={{
                 width: "100%",
                 height: "100%",
@@ -127,7 +127,7 @@ function RoomsAndGrounds() {
             className={styles.groundsImageContainer}
           >
             <img
-              src="images/Plasgrounds.jpg"
+              src="static/Plasgrounds.jpg"
               style={{
                 width: "100%",
                 height: "100%",

@@ -37,7 +37,7 @@ function Header() {
         >
           {/* <img
             name="main-logo"
-            src="images/plaslogo.jpg"
+            src="static/plaslogo.jpg"
             alt="A descriptive text about the image"
             width="75vw"
             height="84vh"
@@ -45,7 +45,7 @@ function Header() {
           /> */}
           <img
             name="main-logo"
-            src="images/plaslogo.jpg"
+            src="static/plaslogo.jpg"
             alt="A descriptive text about the image"
             className={styles.mainLogo}
           />
