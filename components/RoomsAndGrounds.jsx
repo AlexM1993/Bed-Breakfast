@@ -19,7 +19,7 @@ function RoomsAndGrounds() {
             className={styles.shelleysImageContainer}
           >
             <img
-              src="images/Plasshelleys.jpg"
+              src="images\Plasshelleys.jpg"
               style={{
                 width: "100%",
                 height: "100%",
